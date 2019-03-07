@@ -99,9 +99,9 @@ void linkedList::display()
 //*****************
 void linkedList::member()
 {
-std::cout<< "\n";
-std::cout<< " Membrs of the list are  == " << no << "  " <<" members ";
-getchar();
+   std::cout<< "\n";
+   std::cout<< " Membrs of the list are  == " << no << "  " <<" members ";
+   getchar();
 
 }
 void linkedList::delNode()
@@ -179,20 +179,20 @@ int menu()
   // y=random(x);
   // textcolor(y);
   std::cout<< "memebers of the list must be more than 1 " ;
-   std::cout<< "\n" ;
+  std::cout<< "\n" ;
 
   std::cout<< "<><><><><><><><><><><><><><><> " ;
   std::cout<< "\n" ;
-   std::cout<< "==============================" ;
+  std::cout<< "==============================" ;
   std::cout<< "\n" ;
   std::cout<< "\n" ;
   std::cout<< "\n" ;
-   std::cout << "1.Enter a member to the list\n";
-   std::cout << "2.Remove a member from the list\n";
-   std::cout << "3.Print the list\n";
-   std::cout << "4.Number of members :\n";
-   std::cout << "5.Exit\n";
-   std::cout << "Select an option(1-5):";
-   std::cin.getline(c, 5);
-   return atoi(c);
+  std::cout << "1.Enter a member to the list\n";
+  std::cout << "2.Remove a member from the list\n";
+  std::cout << "3.Print the list\n";
+  std::cout << "4.Number of members :\n";
+  std::cout << "5.Exit\n";
+  std::cout << "Select an option(1-5):";
+  std::cin.getline(c, 5);
+  return atoi(c);
 }
